@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Fuente general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero */
+header {
+  background-image: url('img/Imagen1.jpg'); /* Puedes poner tu propia imagen */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 5px #000;
+}
+
+/* Botón principal */
+header .btn {
+  font-weight: bold;
+}
+
+/* Sección de servicios */
+#servicios h4 {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Sección sobre nosotros */
+#sobre p {
+  font-size: 1.1rem;
+}
+
+/* Galería */
+#galeria img {
+  transition: transform 0.3s ease-in-out;
+}
+#galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* Formulario */
+form input, form textarea {
+  border-radius: 0.5rem;
+}
+form button {
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
